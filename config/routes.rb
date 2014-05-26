@@ -1,7 +1,11 @@
 Wedding::Application.routes.draw do
   
-  get 'test' => 'test#show'
+  get 'test' => 'test#home'
   get 'home' => 'test#home'
+  get 'rsvp' => 'test#rsvp'
+  get 'info' => 'test#info'
+  get 'photos' => 'test#photos'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
