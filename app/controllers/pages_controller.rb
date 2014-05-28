@@ -1,5 +1,4 @@
 class TestController < ApplicationController
-  
   def home
   end
   
@@ -11,5 +10,4 @@ class TestController < ApplicationController
   
   def photos
   end
- 
 end

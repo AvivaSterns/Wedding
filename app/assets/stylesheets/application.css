@@ -25,126 +25,126 @@ body {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-border-color: #fff;
-background-color: #000;
+	border-color: #fff;
+	background-color: #000;
 }
 .navbar-inverse {
-background-color: #FFF;
-border-color: #FFF;
+	background-color: #FFF;
+	border-color: #FFF;
 }
 .navbar-inverse .navbar-brand {
-color: #fff;
-font-weight: bolder;
+	color: #fff;
+	font-weight: bolder;
 }
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-color: #fff;
-background-color: #626262;
+	color: #fff;
+	background-color: #626262;
 }
 element.style {
 }
 .navbar-inverse .navbar-toggle {
-border-color: #333;
+	border-color: #333;
 }
 .navbar-toggle {
-position: relative;
-float: right;
-padding: 9px 10px;
-margin-top: 8px;
-margin-right: 15px;
-margin-bottom: 8px;
-background-color: FFF;
-background-image: none;
-border: 1px solid transparent;
-border-radius: 4px;
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: FFF;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
 }
 input, button, select, textarea {
-font-family: inherit;
-font-size: inherit;
-line-height: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
--webkit-appearance: button;
-cursor: pointer;
+	-webkit-appearance: button;
+	cursor: pointer;
 }
 button, select {
-text-transform: none;
+	text-transform: none;
 }
 button {
-overflow: visible;
+	overflow: visible;
 }
 button, input, optgroup, select, textarea {
-margin: 0;
-font: inherit;
-color: inherit;
+	margin: 0;
+	font: inherit;
+	color: inherit;
 }
 * {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 user agent stylesheetinput[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
-padding: 1px 6px;
+	padding: 1px 6px;
 }
 user agent stylesheetinput[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
-align-items: flex-start;
-text-align: center;
-cursor: default;
-color: buttontext;
-padding: 2px 6px 3px;
-border: 2px outset buttonface;
-border-image-source: initial;
-border-image-slice: initial;
-border-image-width: initial;
-border-image-outset: initial;
-border-image-repeat: initial;
-background-color: buttonface;
-box-sizing: border-box;
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	color: buttontext;
+	padding: 2px 6px 3px;
+	border: 2px outset buttonface;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background-color: buttonface;
+	box-sizing: border-box;
 }
 user agent stylesheetinput, textarea, keygen, select, button, isindex {
-margin: 0em;
-font: -webkit-small-control;
-color: initial;
-letter-spacing: normal;
-word-spacing: normal;
-text-transform: none;
-text-indent: 0px;
-text-shadow: none;
-display: inline-block;
-text-align: start;
+	margin: 0em;
+	font: -webkit-small-control;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
 }
 user agent stylesheetinput, textarea, keygen, select, button, isindex, meter, progress {
--webkit-writing-mode: horizontal-tb;
+	-webkit-writing-mode: horizontal-tb;
 }
 user agent stylesheetbutton {
--webkit-appearance: button;
+	-webkit-appearance: button;
 }
 element.style {
 }
 .navbar-inverse .navbar-toggle {
-border-color: #333;
+	border-color: #333;
 }
 .navbar-brand {
-float: left;
-padding: 15px;
-font-size: 36px;
-line-height: 40px;
-height: 65px;
+	float: left;
+	padding: 15px;
+	font-size: 36px;
+	line-height: 40px;
+	height: 65px;
 }
 .navbar-nav {
-float: left;
-padding: 15px;
-font-size: 24px;
-line-height: 40px;
-height: 65px;
+	float: left;
+	padding: 15px;
+	font-size: 24px;
+	line-height: 40px;
+	height: 65px;
 }
 .navbar-inverse .navbar-brand {
-color: #fff;
-font-weight: bolder;
+	color: #fff;
+	font-weight: bolder;
 }
 .navbar-brand {
-float: left;
-padding: 15px;
-font-size: 36px;
-line-height: 40px;
-height: 65px;
+	float: left;
+	padding: 15px;
+	font-size: 36px;
+	line-height: 40px;
+	height: 65px;
 }
