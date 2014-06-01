@@ -2,10 +2,6 @@ body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
-#content {
-  
-}
-
 body {
   background: url(https://dl.dropboxusercontent.com/u/8412404/site/background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -13,6 +9,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
   z-index: 0;
+  font-weight: bold;
+  color: #000;
+   h1 {font-size:225%;
+     font-weight: bolder}
+   p {font-size:150%}
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -52,6 +53,7 @@ input, button, select, textarea {
 font-family: inherit;
 font-size: inherit;
 line-height: inherit;
+font-weight: bold;
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
 -webkit-appearance: button;
@@ -128,25 +130,42 @@ line-height: auto;
 height: auto;
 }
 
-#topcontent {
+#content {
   margin-top: 35px;
   background-color: white;
-  opacity:0.8;
-  font-weight: bold;
-  font-color: black;
+  opacity:0.75;
+  font-weight: bolder;
+  text-align: center;
+  text-color: black;
+  border:2px solid;
+  border-radius:25px;
+  
 }
 
-#bottomcontent {
+#photos {
   margin-top: 35px;
-  background-color: white;
-  opacity:0.8;
-  font-weight: bold;
-  font-color: black;
 }
-#RSVP {
+#infotop {
   margin-top: 35px;
   background-color: white;
-  opacity:0.8;
-  font-weight: bold;
-  font-color: black;
+  opacity:0.75;
+  font-weight: bolder;
+  text-align: center;
+  text-color: black;
+  border:2px solid;
+  border-radius:25px;
+  color:black;
+  font-size: 24;
+}
+
+#infobottom{
+  margin-top: 35px;
+  background-color: white;
+  opacity:0.9;
+  font-weight: bolder;
+  text-align: center;
+  text-color: black;
+  border:2px solid;
+  border-radius:25px;
+  
 }
