@@ -13,20 +13,20 @@
         <title>Aviva and Harris</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-
         <!-- Custom CSS for the 'Full' Template -->
-        <link href="full.css" rel="stylesheet">
     </head>
 
     <body>
         <%= render 'layouts/navigation' %>
         <!-- Page content goes here -->
-        <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+        
 
         <!-- JavaScript -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     </body>
 </html>
