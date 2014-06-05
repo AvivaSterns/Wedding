@@ -16,10 +16,11 @@ gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
-gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.1.1.1'
 group :development do
 gem 'better_errors'
 gem 'quiet_assets'
 gem 'rails_layout'
 end
+gem 'mail_form'
+gem 'simple_form'
