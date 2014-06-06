@@ -1,9 +1,10 @@
-<div class="row">
-   <div class="col-md-3">
-   </div>
-   <div id="rsvp" class="col-md-6">
-     <iframe src="https://docs.google.com/forms/d/1uahDk6C5PMkZw1vgdYnweEFlEirprkUJR3dOswO9WLw/viewform?embedded=true" width="500" height="550" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-   </div>
-   <div class="col-md-3">
-   </div>
-</div>
+<% content_for :title do %>RSVP<% end %>
+  <h3>RSVP</h3>
+  <div class="form">
+    <%= simple_form_for :contact, url: rsvp_path do |form| %>
+    <%= form.input :name, autofocus: true %>
+    <%= form.input :email %>
+    <%= form.input :content, as: :text %>
+    <%= form.button :submit, 'Submit', class: 'submit' %>
+    <% end %>
+  </div>
