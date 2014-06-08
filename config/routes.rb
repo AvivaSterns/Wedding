@@ -1,9 +1,9 @@
 Wedding::Application.routes.draw do
-  get 'test' => 'test#home'
-  get 'home' => 'test#home'
-  get 'rsvp' => 'test#rsvp'
-  get 'info' => 'test#info'
-  get 'photos' => 'test#photos'
+  root to: 'static_pages#home'
+  get '/home' => 'static_pages#home'
+  get '/info' => 'static_pages#info'
+  get '/rsvp' => 'static_pages#rsvp'
+  get '/photos' => 'static_pages#photos'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
