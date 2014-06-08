@@ -14,6 +14,7 @@ body {
   color: #000;
    h1 {font-size:225%;
      font-weight: bolder}
+  h3 {Font-weight: bolder}
    p {font-size:150%}
 }
 
@@ -119,10 +120,10 @@ border-color: #333;
 }
 .navbar-brand {
 float: left;
-padding: 15px;
 font-size: 36px;
 line-height: auto;
 height: auto;
+padding: 12px;
 }
 .navbar-nav {
 float: left;
@@ -172,5 +173,12 @@ height: auto;
   
 }
 #rsvp {
-  margin-top: 35px;
+   margin-top: 35px;
+  background-color: white;
+  opacity:0.9;
+  font-weight: bolder;
+  text-align: center;
+  text-color: black;
+  border:2px solid;
+  border-radius:25px;
 }
