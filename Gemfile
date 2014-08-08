@@ -17,6 +17,13 @@ gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'bootstrap-sass', '~> 3.1.1.1'
+gem 'cloudinary'
+# for aws cloud storage
+gem 'fog'
+# photo resizing
+gem "mini_magick"
+# file upload solution
+gem 'carrierwave'
 group :development do
 gem 'better_errors'
 gem 'quiet_assets'
