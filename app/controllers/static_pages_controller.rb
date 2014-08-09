@@ -8,6 +8,6 @@ class StaticPagesController < ApplicationController
   def rsvp
   end
 
-  def photos
+  def upload_photos
   end
 end
